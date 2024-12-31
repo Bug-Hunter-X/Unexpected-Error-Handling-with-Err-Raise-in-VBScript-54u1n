@@ -1,0 +1,1 @@
+This example demonstrates a potential issue with custom error handling in VBScript.  When using Err.Raise with a user-defined error number, ensure this number is unique and doesn't clash with existing system errors.  The solution shows how to improve error handling to be more robust and provide clear, customized error messages.
